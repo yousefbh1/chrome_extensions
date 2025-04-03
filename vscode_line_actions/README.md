@@ -31,6 +31,7 @@ A Chrome extension that adds VS Code-like line cutting functionality to Google D
 
 ## Notes
 
+- Still in very early development, may not work as intended yet
 - If you have text selected, the extension will not interfere with normal cut operations
 - The extension only activates on Google Docs URLs
 - Requires the "clipboardWrite" permission to copy text to your clipboard
