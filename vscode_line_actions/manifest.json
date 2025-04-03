@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Line Cut for Google Docs",
+  "description": "Cut the entire line in Google Docs with Ctrl+X, similar to VS Code",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/document/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["clipboardWrite"]
+} 
